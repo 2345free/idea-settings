@@ -1,6 +1,9 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="Dave" />
+      <item value="candidate" />
+      <item value="Election Offer" />
       <item value="An annotation that marks a {@link Job} class as one that makes updates to its * {@link JobDataMap} during execution, and wishes the scheduler to re-store the * &lt;code&gt;JobDataMap&lt;/code&gt; when execution completes. * * &lt;p&gt;Jobs that are marked with this annotation should also seriously consider * using the {@link DisallowConcurrentExecution} annotation, to avoid data * storage race conditions with concurrently executing job instances.&lt;/p&gt;" />
       <item value="An annotation that marks a {@link Job} class as one that must not have multiple * instances executed concurrently (where instance is based-upon a {@link JobDetail} * definition - or in other words based upon a {@link JobKey})." />
       <item value="hello" />
