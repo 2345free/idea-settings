@@ -1,0 +1,16 @@
+<application>
+  <component name="AppStorage">
+    <histories>
+      <item value="Adds the specified (signed) amount to the specified calendar field * without changing larger fields. A negative amount means to roll * down. * * &lt;p&gt;NOTE: This default implementation on &lt;code&gt;Calendar&lt;/code&gt; just repeatedly calls the * version of {@link #roll(int,boolean) roll()} that rolls by one unit. This may not * always do the right thing. For example, if the &lt;code&gt;DAY_OF_MONTH&lt;/code&gt; field is 31, * rolling through February will leave it set to 28. The &lt;code&gt;GregorianCalendar&lt;/code&gt; * version of this function takes care of this problem. Other subclasses * should also provide overrides of this function that do the right thing. * * @param field the calendar field. * @param amount the signed amount to add to the calendar &lt;code&gt;field&lt;/code&gt;." />
+      <item value="Dave" />
+      <item value="candidate" />
+      <item value="Election Offer" />
+      <item value="An annotation that marks a {@link Job} class as one that makes updates to its * {@link JobDataMap} during execution, and wishes the scheduler to re-store the * &lt;code&gt;JobDataMap&lt;/code&gt; when execution completes. * * &lt;p&gt;Jobs that are marked with this annotation should also seriously consider * using the {@link DisallowConcurrentExecution} annotation, to avoid data * storage race conditions with concurrently executing job instances.&lt;/p&gt;" />
+      <item value="An annotation that marks a {@link Job} class as one that must not have multiple * instances executed concurrently (where instance is based-upon a {@link JobDetail} * definition - or in other words based upon a {@link JobKey})." />
+      <item value="hello" />
+      <item value="ranking" />
+      <item value="facebook" />
+      <item value="Service Response" />
+    </histories>
+  </component>
+</application>
